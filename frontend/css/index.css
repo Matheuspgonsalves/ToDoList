@@ -1,0 +1,96 @@
+/* Configurações da navbar */
+header {
+    width: 100%;
+    height: 8vh;
+    color: white;
+}
+
+#navbar {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-register {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btnLogin, 
+.btnRegister {
+    margin-right: 0.5rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btnLogin {
+    color: black;
+}
+
+.btnRegister {
+    background-color: rgb(180, 51, 51);
+}
+
+.btnLogin:hover {
+    background-color: rgba(2, 2, 2, 0.671);
+    color: rgb(255, 255, 255);
+}
+
+.btnRegister:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+/* Corpo da página */
+
+body {
+    width: 100%;
+    height: 92vh;
+    background-image: url('../img/home/home-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.title h2 {
+    font-size: 3rem;
+    color: rgb(180, 51, 51);
+}
+
+.text p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
